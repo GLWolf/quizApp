@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Green Lantern Quizz.</title>
+    <title>Green Lantern Quiz.</title>
     <link href="style_quiz.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- all questions and answers will be stored here-->
@@ -13,11 +13,23 @@
     <script src="quiz.js"></script>
 </head>
 <body>
-    <section id= "first-view">
+    <header role="banner">
+        <section class="reset-link">
+            <a href="quiz.html"><img class="logo" src="" alt="Green Lantern Logo"/></a>
+        </section>
+        <section class="right">
+            <ul>
+                <li>Question: <span class ="questionsNumber">0</span>/10</li>
+                <li>Score: <span class= "score">0</span></li>
+            </ul>
+        </section>
+    </header>
+    <main role= "main">
         <header>Green Lantern quiz </header>
-        <p>This quizz will test your knowlage of Green lantern lore. Remember to have fun and if you miss one its okay.</p>
+        <p>This quiz will test your knowledge of Green lantern lore. Remember to have fun and if you miss one its okay.</p>
         <!--Look into sound effects on button click-->
-        <button id= "start-quiz" type="submit">Lets start this!!!</button>
-    </section>
+        <button id= "startButton" type="button">Lets start this!!!</button>
+        <section class="results"></section>
+    </main>
 </body>
 </html>

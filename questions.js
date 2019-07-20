@@ -8,6 +8,8 @@ const STORE = [
             'Jhon Stewart',
         ],
         correctAnswer: 'Alan Scott',
+        icon:'',
+        alt:'Alan Scott first issue'
     },
     {
         question: 'What space sector is Earth in?',
@@ -18,6 +20,8 @@ const STORE = [
             '2800',
         ],
         correctAnswer: '2814',
+        icon:'',
+        alt:''
     },
     {
         question: 'What power from the emotional spectrum does the Green Lantern Corps use?',
@@ -42,7 +46,7 @@ const STORE = [
         correctAnswer: 'beware my power',
     },
     {
-        question: 'The gardians live on what planet?',
+        question: 'The guardians live on what planet?',
         answers:[
             'Oa',
             'Vogsphere',
@@ -62,7 +66,7 @@ const STORE = [
         correctAnswer: 'artist',
     },
     {
-        question: 'For a shor time which member of the Green Lantern Coprs was the Mosaic?',
+        question: 'For a short time which member of the Green Lantern Coprs was the Mosaic?',
         answers:[
             'Hal Jordon',
             'Kilowog',
@@ -82,7 +86,7 @@ const STORE = [
         correctAnswer: 'Ion',
     },
     {
-        question: 'Whic of these Green Lanterns is also a living planet?',
+        question: 'Which of these Green Lanterns is also a living planet?',
         answers:[
             'Katma Tui',
             'Mogo',
