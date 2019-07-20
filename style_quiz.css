@@ -2,6 +2,7 @@
     box-sizing: border-box;
     background: linear-gradient(-90deg, rgb(240, 240, 245), rgb(250, 250, 250));
     font-family: 'PT Sans', sans-serif;
+    list-style-type: none;
   }
   section{
       margin-top: 20px;
