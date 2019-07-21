@@ -5,7 +5,7 @@ const STORE = [
             'Hal Jordon',
             'Alan Scott',
             'Guy Gardener',
-            'Jhon Stewart',
+            'John Stewart',
         ],
         correctAnswer: 'Alan Scott',
         icon:'img/alanScott.jpg',
@@ -79,9 +79,9 @@ const STORE = [
             'Hal Jordon',
             'Kilowog',
             `Ch'p`,
-            'Jhon Stewart',
+            'John Stewart',
         ],
-        correctAnswer: 'Jhon Stewart',
+        correctAnswer: 'John Stewart',
         icon:'img/Green_Lantern_Mosaic_Vol_1_17.jpg',
         alt:'Green Lantern Mosaic Vol 1_17'
     },
@@ -110,7 +110,7 @@ const STORE = [
         alt:'mogo'
     },
     {
-        question: 'Which of these Corps boost the power of the Green Lantern with them?',
+        question: 'Which of these Corps boost the power of the Green Lantern power ring?',
         answers:[
             'Indigo tribe',
             'Star Sapphire',

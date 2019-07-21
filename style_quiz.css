@@ -4,9 +4,19 @@
   box-sizing: border-box;
   
 }
+.test{
+  border: 0px solid #fff;
+  padding: 30px 40px;
+  
+  box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+}
 body {
   font-family: 'Metrophobic', sans-serif;
-  background: url('img/test3.JPG') ;
+  background: url('img/test3.JPG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header {
   width: 100%;
@@ -52,7 +62,7 @@ header ul {
   margin-top: 50px
 }
 main p {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 30px;
   margin-left: 30%;
   margin-right: 30%;
@@ -66,7 +76,7 @@ main p {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #05e73e;
+  color: #046e1f;
   font-size: 2em;
   text-transform: uppercase;
   font-weight: normal;

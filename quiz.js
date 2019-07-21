@@ -3,7 +3,7 @@ let score = 0
 
 function generateQuestion() {
     if (questionNumber < STORE.length) {
-        return `<div class="question-${questionNumber}">
+        return `<div class="question-${questionNumber} test">
         <h2>${STORE[questionNumber].question}</h2>
         <form>
         <fieldset>
