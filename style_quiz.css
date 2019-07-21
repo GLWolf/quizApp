@@ -1,22 +1,278 @@
 * {
-    box-sizing: border-box;
-    background: linear-gradient(-90deg, rgb(240, 240, 245), rgb(250, 250, 250));
-    font-family: 'PT Sans', sans-serif;
-    list-style-type: none;
-  }
-  section{
-      margin-top: 20px;
-      margin-left: auto;
-      margin-right: auto;
-      border: 2px solid black;
-      width: 700px;
-      height: 300px;
-    text-align: center;
-    font-size: 20px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
-  button, input {
-    background: rgb(216, 216, 201);
-    color: rgb(70, 70, 57);
+}
+body {
+  font-family: 'Metrophobic', sans-serif;
+  background: url('img/test3.JPG') ;
+}
+header {
+  width: 100%;
+  padding: 30px 0;
+  color:green;
+  font-size: 10px;
+}
+header::before,
+header::after {
+  display: table;
+  content: '';
+}
+header::after {
+  clear: both;
+}
+.reset-link,
+.right {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+.reset-link {
+  width: 33.33%
+}
+.right {
+  width: 66.67%
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 60%;
+}
+header ul li {
+  padding: 10px 20px;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline;
+}
+header ul {
+  text-align: right;
+  margin-top: 50px
+}
+main p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.start {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin-top: 150px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #05e73e;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(2, 255, 99);
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px
+}
+button:hover, button:focus {
+  background-color: #000000;
+  color: #52eb5a85
+}
+main div {
+  margin: 0 auto;
+}
+label:nth-child(1) {
+  background-color: rgb(3, 95, 33)
+}
+label:nth-child(2) {
+  background-color: rgb(3, 95, 33)
+}
+label:nth-child(3) {
+  background-color: rgb(3, 95, 33)
+}
+label:nth-child(4) {
+  background-color: rgb(3, 95, 33)
+}
+label {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  line-height: 22px
+}
+label:hover, label:focus {
+  background-color: rgb(0, 0, 0);
+  color:#52eb5a85
+}
+fieldset {
+  border: none;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+input:checked {
+  border: 8px solid #ebca52;
+}
+input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+h2 {
+  text-align: left;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-transform: uppercase
+}
+form button {
+  padding: 20px;
+  border: none;
+  background-color: black;
+  color: #52eb5a85;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+form button:hover, form button:focus {
+  background-color: rgb(3, 95, 33);
+  color: #ffffff;
+}
+.answer {
+  flex: 1 1 auto;
+}
+.questionDisplay {
+  display: none;
+  width: 50%;
+}
+.feedback {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(3, 151, 40) 100%);
+  padding-top: 40px
+}
+.feedback button {
+  width: 100%
+}
+.feedback p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px
+}
+.feedback span {
+  color: white;
+}
+.feedback img {
+  width: 600px;
+  height: auto;
+  display: block; 
+  margin: auto;
+  margin-bottom: 20px
+}
+h3 {
+  color: rgb(9, 255, 0);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.results p:first-of-type {
+  font-size: 25px;
+  margin-bottom: 10px
+}
+.results p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 0
+}
+.restartButton {
+  margin-top: 40px
+}
+@media screen and (max-width: 1190px) {
+  .questionDisplay,
+  .start {
+      width: 80%;
+      margin-bottom: 100px
   }
-  
+}
+@media screen and (max-width: 768px) {
+  .logo {
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin: auto;
+  }
+  header ul {
+      margin: 10px;
+      text-align: center
+  }
+  h1 {
+      font-size: 1.5em
+  }
+  header ul li {
+      padding: 10px;
+      font-size: 18px
+  }
+  .reset-link,
+  .right {
+      width: 100%
+  }
+  .start {
+      width: 100%;
+      padding: 40px;
+      margin-top: 0
+  }
+  h2 {
+      font-size: 18px
+  }
+  .questionDisplay {
+      width: 100%;
+      padding: 20px;
+      margin-top: 0
+  }
+  label {
+      font-size: 16px;
+      padding: 15px
+  }
+  .feedback img {
+      width: 100px;
+      height: auto
+  }
+  .feedback p {
+      font-size: 16px;
+      margin: 0 15px
+  }
+  .results p:first-of-type {
+      font-size: 18px
+  }
+  h3 {
+      font-size: 25px
+  }
+}

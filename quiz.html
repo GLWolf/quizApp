@@ -6,30 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Green Lantern Quiz.</title>
     <link href="style_quiz.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- all questions and answers will be stored here-->
     <script src="questions.js"></script>
-    <!-- code to make it work stored here-->
     <script src="quiz.js"></script>
 </head>
 <body>
     <header role="banner">
-        <section class="reset-link">
-            <a href="quiz.html"><img class="logo" src="" alt="Green Lantern Logo"/></a>
-        </section>
-        <section class="right">
+        <div class="reset-link">
+            <a href="quiz.html"><img class="logo" src="img/logo.jpg" alt="Green Lantern Logo"/></a>
+        </div>
+        <div class="right">
             <ul>
-                <li>Question: <span class ="questionsNumber">0</span>/10</li>
+                <li>Question: <span class ="questionNumber">0</span>/10</li>
                 <li>Score: <span class= "score">0</span></li>
             </ul>
-        </section>
+        </div>
     </header>
     <main role= "main">
-        <header>Green Lantern quiz </header>
-        <p>This quiz will test your knowledge of Green lantern lore. Remember to have fun and if you miss one its okay.</p>
-        <!--Look into sound effects on button click-->
-        <button id= "startButton" type="button">Lets start this!!!</button>
-        <section class="results"></section>
+        <div class="start">
+            <h1>Green Lantern quiz </h1>
+            <p>This quiz will test your knowledge of Green lantern lore. Remember to have fun and if you miss one its okay.
+                The Green Lantern Logo will take you back here if you wish to restart.
+            </p>
+            <!--Look into sound effects on button click-->
+            <button type="button" class= "startButton">Lets start this!!!</button>
+        </div>
+        <div class="questionDisplay"></div>
     </main>
 </body>
 </html>
