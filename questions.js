@@ -65,7 +65,7 @@ const STORE = [
         question: 'Kyle Rayner was once a ??? before he was Green Lantern.',
         answers:[
             'teacher',
-            'test piolt',
+            'test pilot',
             'musician',
             'artist',
         ],
