@@ -94,7 +94,7 @@ const STORE = [
             'Proselyte',
         ],
         correctAnswer: 'Ion',
-        icon:'img/ion.png',
+        icon:'img/Ion.png',
         alt:'ion'
     },
     {
