@@ -2,7 +2,7 @@ const STORE = [
     {
         question:'Who was the first hero to take on the name Green Lantern?',
         answers: [
-            'Hal Jordon',
+            'Hal Jordan',
             'Alan Scott',
             'Guy Gardener',
             'John Stewart',
@@ -76,7 +76,7 @@ const STORE = [
     {
         question: 'For a short time which member of the Green Lantern Coprs was the Mosaic?',
         answers:[
-            'Hal Jordon',
+            'Hal Jordan',
             'Kilowog',
             `Ch'p`,
             'John Stewart',
