@@ -66,6 +66,8 @@ main p {
   font-size: 30px;
   margin-left: 30%;
   margin-right: 30%;
+}
+.shadow {
   text-shadow: 2px 2px white;
 }
 .start {

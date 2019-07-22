@@ -58,7 +58,7 @@ const STORE = [
             'Krypton',
         ],
         correctAnswer: 'Oa',
-        icon:'img/oa.jpg',
+        icon:'img/12.jpg',
         alt:'oa'
     },
     {
