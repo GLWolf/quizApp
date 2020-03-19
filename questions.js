@@ -9,7 +9,8 @@ const STORE = [
         ],
         correctAnswer: 'Alan Scott',
         icon:'img/alanScott.jpg',
-        alt:'Alan Scott first issue'
+        alt:'Alan Scott first issue',
+        audioR:'audio/Recording (1).m4a',
     },
     {
         question: 'What space sector is Earth in?',
@@ -21,7 +22,8 @@ const STORE = [
         ],
         correctAnswer: '2814',
         icon:'img/2814.jpg',
-        alt:'space sector 2814'
+        alt:'space sector 2814',
+        audioR:'',
     },
     {
         question: 'What power from the emotional spectrum does the Green Lantern Corps use?',
@@ -33,7 +35,8 @@ const STORE = [
         ],
         correctAnswer: 'Willpower',
         icon:'img/willpower.jpg',
-        alt:'willpower'
+        alt:'willpower',
+        audioR:'',
     },
     {
         question: `Finish the Oath "In brightest day, in blackest night,
@@ -47,7 +50,8 @@ const STORE = [
         ],
         correctAnswer: 'beware my power',
         icon:'img/oath.jpg',
-        alt:'oath'
+        alt:'oath',
+        audioR:'',
     },
     {
         question: 'The guardians live on what planet?',
@@ -59,7 +63,8 @@ const STORE = [
         ],
         correctAnswer: 'Oa',
         icon:'img/12.jpg',
-        alt:'oa'
+        alt:'oa',
+        audioR:'',
     },
     {
         question: 'Kyle Rayner was once a ??? before he was Green Lantern.',
@@ -71,7 +76,8 @@ const STORE = [
         ],
         correctAnswer: 'artist',
         icon:'img/art.jpg',
-        alt:'kyle drawing alan'
+        alt:'kyle drawing alan',
+        audioR:'',
     },
     {
         question: 'For a short time which member of the Green Lantern Coprs was the Mosaic?',
@@ -83,7 +89,8 @@ const STORE = [
         ],
         correctAnswer: 'John Stewart',
         icon:'img/Green_Lantern_Mosaic_Vol_1_17.jpg',
-        alt:'Green Lantern Mosaic Vol 1_17'
+        alt:'Green Lantern Mosaic Vol 1_17',
+        audioR:'',
     },
     {
         question: 'What is the name of the entity of willpower?',
@@ -95,7 +102,8 @@ const STORE = [
         ],
         correctAnswer: 'Ion',
         icon:'img/Ion.png',
-        alt:'ion'
+        alt:'ion',
+        audioR:'',
     },
     {
         question: 'Which of these Green Lanterns is also a living planet?',
@@ -107,7 +115,8 @@ const STORE = [
         ],
         correctAnswer: 'Mogo',
         icon:'img/mogo.jpg',
-        alt:'mogo'
+        alt:'mogo',
+        audioR:'',
     },
     {
         question: 'Which of these Corps boost the power of the Green Lantern power ring?',
@@ -119,6 +128,7 @@ const STORE = [
         ],
         correctAnswer: 'Blue Lantern',
         icon:'img/SaintWalker.jpg',
-        alt:'saintwalker helping hal'
+        alt:'Saintwalker helping hal',
+        audioR:'',
     }
 ]

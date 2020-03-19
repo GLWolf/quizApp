@@ -64,8 +64,6 @@ header ul {
 main p {
   color: rgb(0, 0, 0);
   font-size: 30px;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 .shadow {
   text-shadow: 2px 2px white;
@@ -85,7 +83,7 @@ h1 {
   font-weight: normal;
   text-shadow: 2px 2px black;
 }
-button {
+#button {
   padding: 20px;
   border: none;
   background-color: rgb(2, 255, 99);
@@ -97,7 +95,7 @@ button {
   transition: all 0.3s ease;
   margin-top: 40px
 }
-button:hover, button:focus {
+#button:hover, #button:focus {
   background-color: #000000;
   color: #52eb5a85
 }
@@ -160,7 +158,7 @@ h2 {
   color: #ffffff;
   text-transform: uppercase
 }
-form button {
+form #button {
   padding: 20px;
   border: none;
   background-color: black;
@@ -174,7 +172,7 @@ form button {
   width: 100%;
   text-align: left;
 }
-form button:hover, form button:focus {
+form #button:hover, form #button:focus {
   background-color: rgb(3, 95, 33);
   color: #ffffff;
 }
@@ -192,7 +190,7 @@ form button:hover, form button:focus {
   background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(3, 151, 40) 100%);
   padding-top: 40px
 }
-.feedback button {
+.feedback #button {
   width: 100%
 }
 .feedback p {
@@ -229,6 +227,31 @@ h3 {
 .restartButton {
   margin-top: 40px
 }
+.audio {
+  background-color: rgb(0, 0, 0);
+  border: solid 1px rgb(163, 163, 163);
+  color: white;
+  padding: 3px 7px;
+  text-align: center;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #1f1f1f;
+  border-radius: 5px;
+}
+.audio:hover {
+  background-color: rgb(75, 75, 75);
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px #666666;
+}
+
+.audio:active {
+  background-color: rgb(131, 131, 131);
+  box-shadow: 2px 2px 5px #a0a0a0;
+  transform: translateY(2px);
+}
+
 @media screen and (max-width: 1190px) {
   .questionDisplay,
   .start {
@@ -276,8 +299,8 @@ h3 {
       padding: 15px
   }
   .feedback img {
-      width: 400px;
-      height: auto
+      width: 300px;
+      height: 300px;
   }
   .feedback p {
       font-size: 16px;

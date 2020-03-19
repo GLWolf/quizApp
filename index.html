@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,37 @@
     <title>Green Lantern Quiz.</title>
     <link href="style_quiz.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Metrophobic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="16x16">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="questions.js"></script>
     <script src="quiz.js"></script>
 </head>
+
 <body>
     <header role="banner">
         <div class="reset-link">
-            <a href="index.html"><img class="logo" src="img/logo.jpg" alt="Green Lantern Logo"/></a>
+            <a href="index.html"><img class="logo" src="img/logo.jpg" alt="Green Lantern Logo" /></a>
         </div>
         <div class="right">
             <ul>
-                <li>Question: <span class ="questionNumber">0</span>/10</li>
-                <li>Score: <span class= "score">0</span></li>
+                <li>Question: <span class="questionNumber">0</span>/10</li>
+                <li>Score: <span class="score">0</span></li>
             </ul>
         </div>
     </header>
-    <main role= "main">
+    <main role="main">
         <div class="start">
             <h1>Green Lantern quiz </h1>
-            <p class="shadow">This quiz will test your knowledge of Green Lantern lore. Remember to have fun and if you miss one its okay.
+            <p class="shadow">This quiz will test your knowledge of Green Lantern lore. Remember to have fun and if you
+                miss one its okay.
                 The Green Lantern Logo will take you back here if you wish to restart.
             </p>
-            <!--Look into sound effects on button click-->
-            <button type="button" class= "startButton">Lets start this!!!</button>
+            
+            <button id="button" type="button" class="startButton">Lets start this!!!</button>
         </div>
         <div class="questionDisplay"></div>
     </main>
 </body>
+
 </html>
